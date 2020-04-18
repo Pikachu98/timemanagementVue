@@ -2,7 +2,7 @@
   <div id="app">
     <b-navbar toggleable="md" variant="dark" type="dark">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <img src="./assets/mevnnav.png" class="img-circle" style="padding: 5px">
+      <img src="./assets/mevnnav.png" class="img-circle" width="40" style="padding: 5px">
       <b-navbar-brand to="/">Task Management</b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav>
@@ -54,9 +54,8 @@ export default {
     text-align: center;
     color: #2c3e50;
     /*margin-top: 15px;*/
-    /*background: url('./assets/save-time2.jpg') no-repeat fixed;*/
-    background: url('./assets/save-time2.jpg') repeat center top;
-    background-color: #211B1B;
+    background: url('./assets/save-time2.jpg') repeat;
+    /*background-color: #211B1B;*/
   }
   .VueTables_sortable {
     cursor: pointer;

@@ -30,6 +30,9 @@ export default {
   /*  !*-webkit-filter: blur(8px);*!*/
   /*  background-color: #211B1B*/
   /*}*/
+  .hero{
+    background: url('../assets/save-time2.jpg') repeat center top;
+  }
   .vue-title {
     margin-top: 30px;
     text-align: center;
